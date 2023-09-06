@@ -10,47 +10,52 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         .signup-container {
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-            width: 300px;
+            padding: 40px;
+            width: 400px;
+            text-align: center;
         }
 
         h2 {
             color: #333;
-            text-align: center;
-            margin-bottom: 20px;
+            font-size: 28px;
+            margin-bottom: 30px;
         }
 
         label {
             display: block;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             color: #555;
+            font-size: 16px;
+            text-align: left;
         }
 
         input[type="text"],
         input[type="email"],
         input[type="password"] {
             width: 100%;
-            padding: 10px;
+            padding: 12px;
             margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            font-size: 16px;
         }
 
         button {
             background-color: #007BFF;
             color: #fff;
             border: none;
-            padding: 10px 20px;
+            padding: 15px 30px;
             border-radius: 5px;
             cursor: pointer;
             width: 100%;
+            font-size: 18px;
             font-weight: bold;
         }
 
@@ -59,13 +64,22 @@
         }
 
         .note {
-            font-size: 14px;
+            font-size: 16px;
             color: #777;
-            margin-top: 10px;
-            text-align: center;
+            margin-top: 20px;
         }
 
         .note a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .login-link {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .login-link a {
             text-decoration: none;
             color: #007BFF;
         }
@@ -85,7 +99,7 @@
         
         <button><a href="https://kryptle-crypto.github.io/dashboard/nndash.html" style="text-decoration: none; color: #fff;">Sign Up</a></button>
         
-        <p class="note">Already have an account? <a href="your_login_link_here">Login here</a></p>
+        <p class="note">Already have an account? <span class="login-link"><a href="your_login_link_here">Login</a></span></p>
     </div>
 </body>
 </html>
